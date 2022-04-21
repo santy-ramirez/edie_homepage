@@ -1,125 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-     <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   
-    
+
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant" />
-    <link href="css/styles.css" rel="stylesheet" />
-    <!--fuente-->
+    <link href="css/styles3.css" rel="stylesheet" />
+    <!-------------------------fuente------------------------------>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
 </head>
-<body >
-<div  >
-   <header>
-        <nav id="myTopnav" class="topnav" >
-            <a >Edie</a>
-            <a>homo</a>
-            <a>homo</a>
-            <a>homo</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-        </nav>
-        <p class="hero__parrafo texto">Unhappy with your website?</p>
-        <h1 class="hero__title  texto">We create beautiful and fast web services</h1>
-        <div class="contenedor-image">
-        <img width="348px" height="145px" src="images/heroImage.jpg" />    
-        </div>
+
+<body>
+    <div>
+        <header>
+           <nav id='menu'>
+  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+  <ul>
+    <li><a href='http://'>Home</a></li>
+    <li><a class='dropdown-arrow' href='http://'>Products</a>
+      <ul class='sub-menus'>
+      </ul>
+    </li>
+    <li><a href='http://'>About</a></li>
+    <li><a class='dropdown-arrow' href='http://'>Services</a>
+      <ul class='sub-menus'>
+      </ul>
+    </li>
+    <li><a href='http://'>Contact Us</a></li>
+  </ul>
+</nav>
+            <p class="hero__parrafo texto">Unhappy with your website?</p>
+            <h1 class="hero__title  texto">We create beautiful and fast web services</h1>
+            <div class="contenedor-image">
+                <img class="imagen1" src="images/heroImage.jpg" />
+            </div>
 
         </header>
 
-<main>
+        <main>
 
-<section class="detalles">
- <h1 class="detalles__titulo texto">Story, emotion and purpose</h1>
- <p class="detalles__parrafo texto">We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.</p> 
- <div>
-    <lebel class="search" for="#input" >que estas por hacer?</lebel>
-    <div class="search__contenedor">
- <input class="search__entrada" id="input" type="text" ></input>
-  <button class="search__button">search</button> 
- </div> 
+            <section class="detalles">
+                <div class="texto">
+                <h1 class="detalles__titulo ">Story, emotion and purpose</h1>
+                <p class="detalles__parrafo ">We help transform your ideas into real world applications that will
+                    outperform your toughest competition and help you achieve your strategic goals in short period of
+                    time.</p>
+                <div>
+                    <lebel class="search" for="#input">que estas por hacer?</lebel>
+                    <div class="search__contenedor">
+                        <input class="search__entrada" id="input" type="text"></input>
+                        <button class="search__button">search</button>
+                    </div>
 
-</div>
-</section>
+                </div>
+                </div>
+            </section>
 
-<section class="cart">
-    <h2>We offer high demand services  </h2>
-    <div>
-        <div class="cart__icon"><i class="fa fa-edit lg"></i></div>
-        <h3>UI/UX Design</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
-        <button>esa</button>
+            <section class="carts">
+                <h2 class="titulodecart">We offer high demand services </h2>
+                <div class="cartcenter">
+                <div class="cartconteiner" >
+                <div class="cart">
+                    <div class="cart__icon"><i class="fa fa-edit lg"></i></div>
+                    <h3 class="cart__titulo">UI/UX Design</h3>
+                    <p class="cart__parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac
+                        nulla consequat aliquet id quis turpis.</p>
+                    <button class="cart__button">esa</button>
+                </div>
+                <div class="cart">
+                    <div class="cart__icon"> <i class="fa fa-code"></i></div>
+                    <h3 class="cart__titulo">UI/UX Design</h3>
+                    <p class="cart__parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac
+                        nulla consequat aliquet id quis turpis.</p>
+                    <button class="cart__button">esa</button>
+                </div>
+                <div class="cart">
+                    <div class="cart__icon"><i class="fa fa-edit"></i></div>
+                    <h3 class="cart__titulo">UI/UX Design</h3>
+                    <p class="cart__parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac
+                        nulla consequat aliquet id quis turpis.</p>
+                    <button class="cart__button">esa</button>
+                </div>
+                </div>
+                </div>
+
+                <div class="images">
+
+                    <h3 class="images__titulo">Good design means good business</h3>
+                    <div class="imagenculum1" >
+                    <div class="image__conteiner imagen-p">
+                        <img class="image" width="100%" height="400px" src="images/onboard.png">
+                        <h4 class="image__titulo"></h4>
+                        <p class="image__detalle">esaaa sjd jd jfdk</p>
+                    </div>
+
+                    <div class="image__conteiner">
+                        <img class="image" width="100%" height="400px" src="images/booking.png">
+                        <h4 class="image__titulo"></h4>
+                        <p class="image__detalle">esaaa sjd jd jfdk</p>
+                    </div>
+                    </div>
+                    <div class="imagenculum2">
+
+                    <div class="image__conteiner imagen-p">
+                        <img class="image"  width="100%"
+                        src="images/smarthome.jpg" height="400px">
+                        <h4></h4>
+                        <p>esaaa sjd jd jfdk</p>
+                    </div>
+
+                    <div class="image__conteiner">
+                        <img  class="image" width="100%" src="images/juice-product.png" height="400px">
+                        <h4></h4>
+                        <p>esaaa sjd jd jfdk</p>
+                    </div>
+                    </div>
+<div>
+
+            </section>
+            <section >
+                <div class="children">
+                <div class="children1">
+                 <p>ls jsjd hdfh djsj</p>
+                <h2 class="children1__titulo">We are chilled and a laidback team</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="children2">
+                <div class="team__conteiner">
+                    <div class="team__image"><img class="imagen" src="images/person1.png"></div>
+                    <div class="team__image"><img  class="imagen" src="images/person2.png"></div>
+                    <div class="team__image"><img   class="imagen" src="images/person3.png"></div>
+                </div>
+                </div>
+                </div>
+                <p>“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and
+                    talented team.” </p>
+                    <div class="autor__conteiner" >
+                        <img src="images/person4.png">
+                        <div>
+                            <p>name</p>
+                            <p>descripcion</p>
+                        </div>
+                    </div>
+            </section>
+
+        </main>
+        <footer>
+            <ul>
+                <li>footer</li>
+                <li>footer</li>
+                <li>footer</li>
+                <li>footer</li>
+                <li>footer</li>
+            </ul>
+            <div>
+                <img src="images/instagram.svg">
+                <img src="images/twitter.svg">
+                <img src="images/linkedin.svg">
+            </div>
+            <div>
+                <input type="text"/>
+            </div>
+        </footer>
     </div>
-    <div>
-        <i></i>
-        <h3>UI/UX Design</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
-        <button>esa</button>
-    </div>
-    <div>
-        <i></i>
-        <h3>UI/UX Design</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
-        <button>esa</button>
-    </div>
-
-    <div>
-        <div>
-            <h3>Good design means good business</h3>
-        <img src="">
-        <p>esaaa sjd jd jfdk</p>
-        </div>
-
-        <div>
-            <h3>Good design means good business</h3>
-        <img src="">
-        <p>esaaa sjd jd jfdk</p>
-        </div>
-
-        <div>
-            <h3>Good design means good business</h3>
-        <img src="">
-        <p>esaaa sjd jd jfdk</p>
-        </div>
-        <div>
-            <h3>Good design means good business</h3>
-        <img src="">
-        <p>esaaa sjd jd jfdk</p>
-        </div>
-        
-    <div>
-
-</section>
-<section>
-    <h2>We are chilled and a laidback team</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-</section>
- 
-</main>
-<footer>
-    
-</footer>
-</div>
 
 
-<script >
-    
-    function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
+    <script>
+        function updatemenu() {
+  if (document.getElementById('responsive-menu').checked == true) {
+    document.getElementById('menu').style.borderBottomRightRadius = '0';
+    document.getElementById('menu').style.borderBottomLeftRadius = '0';
+  }else{
+    document.getElementById('menu').style.borderRadius = '0px';
   }
 }
-</script>
+
+    </script>
 
 </body>
+
 </html>
