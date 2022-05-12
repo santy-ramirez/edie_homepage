@@ -1,16 +1,22 @@
 @import 'navbar';
 @import 'main';
+@import 'footer';
 
 
 *{
-	
+	padding: 0;
+	margin: 0;
 }
 
 body {
+	background-color: whitesmoke;
+
 font-family: 'Poppins';
+
 
 }
 .conteiner__principal{
 	max-width: 1200px; 
 	margin: 0 auto;
+
 }

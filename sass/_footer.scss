@@ -1,0 +1,30 @@
+footer{
+	padding: 1rem;
+background-color: #100E1D;
+max-width: 1200px;
+margin: 0 auto;
+
+}
+.contenedor__footer{
+	width: 100%;
+	background-color: #100E1D;
+}
+
+.footer__s{
+	display: block;
+	margin: 0 auto;
+	max-width: 300px;
+	padding: 4rem 0;
+
+
+
+}
+@media screen and (min-width:  1000px) {
+	footer{
+		display: flex;
+
+	}
+	.social{
+		display: flex;
+	}
+}

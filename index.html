@@ -8,7 +8,7 @@
 
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant" />
-    <link href="css/styles3.css" rel="stylesheet" />
+    <link href="css/styles4.css" rel="stylesheet" />
     <!-------------------------fuente------------------------------>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,9 +21,12 @@
 <div>
 <header>
     <!-----------------------------------NAVBAR---------------------------------------------------------->
+    <div class="conteiner_navbar">
+        <p>EDIE</p>
     <nav id='menu'>
         <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
         <ul>
+
             <li><a href='http://'>Home</a></li>
             <li><a class='dropdown-arrow' href='http://'>Products</a></li>
             <li><a href='http://'>About</a></li>
@@ -31,6 +34,7 @@
             <li><a href='http://'>Contact Us</a></li>
         </ul>
     </nav>
+    </div>
 <p class="hero__parrafo texto">Unhappy with your website?</p>
 <h1 class="hero__title  texto">We create beautiful and fast web services</h1>
 <div class="contenedor-image">
@@ -38,7 +42,7 @@
 </div>
 </header>
 
-<main class="conteiner__principal">
+<main class="conteiner__principal" >
     <!------------------------------------DETALLES------------------------------------------------->
     <section class="detalles">
             <div class="texto">
@@ -120,7 +124,7 @@
     <section class="contenedor__children ">
          <div class="children">
             <div class="children1">
-               <p>ls jsjd hdfh djsj</p>
+               <p style="color: red;">Meet the team</p>
                <h2 class="children1__titulo">We are chilled and a laidback team</h2>
                <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
            </div>
@@ -146,24 +150,28 @@
 </section>
 
 </main>
-
+<div class="contenedor__footer">
 <footer>
 <ul class="list">
-    <li>footer</li>
-    <li>footer</li>
-    <li>footer</li>
-    <li>footer</li>
-    <li>footer</li>
+    <li>Home</li>
+    <li>Services</li>
+    <li>clients</li>
+    <li>our works</li>
+    <li>contact</li>
 </ul>
 <div style=" padding: 0 0 0 2rem;"><p class="footer__logo" style="color: white;">EDIE</p>
+    <div class="social">
     <img src="images/instagram.svg">
     <img src="images/twitter.svg">
     <img src="images/linkedin.svg">
+    </div>
 </div>
-<div class="footer__search">
-    <input type="text"/>
+<div class="footer__s  search ">
+     <input class="search__entrada" id="input" type="text"></input>
+    <button class="search__button">search</button>
 </div>
 </footer>
+</div>
 </div>
 
 
